@@ -34,11 +34,11 @@ class Bacteria
     x +=(int)(Math.random()*5);
     y -=(int)(Math.random()*5);
     }
-    else if (mouseX < x && mouseY< y){
+    else if (mouseX <= x && mouseY<= y){
     x -=(int)(Math.random()*5);
     y -=(int)(Math.random()*5);
     }
-    else if (mouseX< x && mouseY > y){
+    else if (mouseX<= x && mouseY >= y){
     x -=(int)(Math.random()*5);
     y +=(int)(Math.random()*5);
     }
